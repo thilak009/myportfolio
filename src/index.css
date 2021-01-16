@@ -479,6 +479,9 @@ p{
 	.right-column{
 		justify-content: center;
 	}
+	#preview{
+		width: 95%;
+	}
 }
 
 @media screen and (max-width: 400px){
@@ -490,7 +493,7 @@ p{
 	}
 
 	#preview{
-		width: 280px;
+		width: 95%;
 	}
 }
 @media (max-width: 350px){
@@ -502,7 +505,7 @@ p{
 	}
 
 	#preview{
-		width: 200px;
+		width: 90%;
 	}
 	.about-me{
 		width: 280px;
