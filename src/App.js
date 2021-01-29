@@ -23,12 +23,14 @@ function App() {
   },[theme]);
 
   return (
-    <div className="App">
+    <>
+    <div className="App" id="App">
       <Intro setTheme={setTheme}/>
       <About/>
       <Projects/>
       <Contact/>
   </div>
+  </>
   );
 }
 

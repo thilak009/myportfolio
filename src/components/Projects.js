@@ -8,7 +8,7 @@ import {FaGitAlt} from 'react-icons/fa';
 function Projects(){
 
     return(
-        <section className="s1">
+      <section className="s1">
       <div className="main-container">
         <h3 style={{textAlign: 'center'}}><FaGitAlt/> Some of my projects</h3>
         

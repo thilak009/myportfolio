@@ -84,9 +84,7 @@ html, body{
 	scroll-behavior: smooth;
 }
 
-body *{
-	transition: 0.3s;
-}
+
 
 h1, h2, h3, h4, h5, h6, strong{
 	color: var(--mainText);
@@ -252,6 +250,7 @@ p{
 	box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
 
 	cursor: pointer;
+	transition: 0.3s;
 }
 
 
@@ -365,6 +364,8 @@ p{
 	box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
 }
 
+
+
 .thumbnail{
 	display: block;
 	width: 100%;
@@ -378,6 +379,10 @@ p{
 }
 .post-preview a{
 	font-family: 'Roboto Mono', monospace;
+	background-color: var(--buttonColor);
+	color: var(--previewShadow);
+	padding: 0.2em 0.5em;
+	border-radius: 0.2em;
 }
 
 .post-title{
@@ -446,7 +451,7 @@ p{
 }
 .social-links a{
   font-size: 25px;
-	color: #000;
+	color: var(--mainText);
 }
 #twitter-icon:hover{
 	color: #17a2b8;
@@ -517,3 +522,6 @@ p{
 		grid-template-columns: repeat(auto-fit, 270px);
 	}
 }
+
+
+
