@@ -13,16 +13,16 @@ function Contact(){
                 <input type="hidden" name="form-name" value="portfolio-contact" />
 
                 <label htmlFor="name">Name</label>
-                <input className="input-field" type="text" name="name"></input>
+                <input className="input-field" type="text" name="name" required></input>
 
                 <label htmlFor="subject">Subject</label>
-                <input className="input-field" type="text" name="subject"></input>
+                <input className="input-field" type="text" name="subject" required></input>
           
                 <label htmlFor="email">Email</label>
-                <input className="input-field" type="text" name="email"></input>
+                <input className="input-field" type="text" name="email" required></input>
           
                 <label htmlFor="message">Message</label>
-                <textarea className="input-field" type="text" name="message"></textarea>
+                <textarea className="input-field" type="text" name="message" required></textarea>
 
                 <button id="submit-btn" type="submit">Send</button>
             </form>
