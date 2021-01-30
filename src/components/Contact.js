@@ -8,20 +8,20 @@ function Contact(){
         <div className="main-container">
             <h3 style={{textAlign: 'center'}}>Get in Touch</h3>
 
-            <form id="contact-form" method="POST" data-netlify="true" name="portfolio-contact">
-                <label>Name</label>
+            <form id="contact-form" method="post" data-netlify="true" name="portfolio-contact" onSubmit="submit">
+                <label htmlFor="name">Name</label>
                 <input className="input-field" type="text" name="name"></input>
 
-                <label>Subject</label>
+                <label htmlFor="subject">Subject</label>
                 <input className="input-field" type="text" name="subject"></input>
           
-                <label>Email</label>
+                <label htmlFor="email">Email</label>
                 <input className="input-field" type="text" name="email"></input>
           
-                <label>Message</label>
+                <label htmlFor="message">Message</label>
                 <textarea className="input-field" type="text" name="message"></textarea>
 
-                <input id="submit-btn" type="submit" value="Send"></input>
+                <button id="submit-btn" type="submit">Send</button>
             </form>
         </div>
         <div className="social-links" >
