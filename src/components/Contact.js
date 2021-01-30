@@ -8,7 +8,7 @@ function Contact(){
         <div className="main-container">
             <h3 style={{textAlign: 'center'}}>Get in Touch</h3>
 
-            <form id="contact-form">
+            <form id="contact-form" action="POST" data-netlify="true" name="portfolio-contact">
                 <label>Name</label>
                 <input className="input-field" type="text" name="name"></input>
 
@@ -19,7 +19,7 @@ function Contact(){
                 <input className="input-field" type="text" name="email"></input>
           
                 <label>Message</label>
-                <textarea className="input-field" type="text" name="name"></textarea>
+                <textarea className="input-field" type="text" name="message"></textarea>
 
                 <input id="submit-btn" type="submit" value="Send"></input>
             </form>
