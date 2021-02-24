@@ -3,6 +3,7 @@ import cocktail from '.././images/cocktails-project.jpg';
 import colorGenerator from '.././images/color-generator.png';
 import stripeMenu from '.././images/stripe-menu.png';
 import githubUsers from '.././images/github-users.png';
+import crypto from '.././images/crypto.png';
 import {FaGitAlt} from 'react-icons/fa';
 
 function Projects(){
@@ -20,6 +21,14 @@ function Projects(){
                 <h6 className="post-title">Github Users Search</h6>
                 <p className="post-intro">Search github users and their data is represenred in charts.</p>
                 <a href="https://github-userinfo.netlify.app/" target="_blank" rel='noreferrer'>Check out</a>
+              </div>
+            </div>
+            <div className="post">
+              <img src={crypto} className="thumbnail" alt="image3"></img>
+              <div className="post-preview">
+                <h6 className="post-title">Crypto Tracker</h6>
+                <p className="post-intro">Get Cryptocurrencies details like price,market cap etc</p>
+                <a href="https://gocrypto.netlify.app/" target="_blank" rel='noreferrer'>Check out</a>
               </div>
             </div>
             <div className="post">
