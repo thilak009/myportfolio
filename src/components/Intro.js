@@ -1,5 +1,5 @@
 import React from 'react'
-import profile from '.././images/AnimeX_820039.jpeg';
+import profile from '.././images/profile.jpg';
 
 function Intro({setTheme}){
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import {FaTwitter,FaGithub,FaLinkedin,FaInstagram} from 'react-icons/fa';
+import {FaTwitter,FaGithub,FaLinkedin} from 'react-icons/fa';
 
 function Contact(){
 
@@ -38,9 +38,6 @@ function Contact(){
             </a></li>
             <li><a id="linkedin-icon" href="https://www.linkedin.com/in/thilak-reddy-87ab4b1b3" target="_blank" rel='noreferrer'>
                 <FaLinkedin/>
-            </a></li>
-            <li><a id="instagram-icon" href="https://instagram.com/thilak_reddy_9?igshid=1623bpobg9k5t" target="_blank" rel='noreferrer'>
-                <FaInstagram/>
             </a></li>
             </ul>
         </div>
