@@ -39,7 +39,7 @@ function Intro({setTheme}){
                   <div id="corner-tl" className="corner"></div>
                   <div id="corner-tr" className="corner"></div>
                   <h3>What I do</h3>
-                  <p>I am a Front End Web Developer.</p>
+                  <p>I am a Full Stack Web Developer.</p>
                   <div id="corner-br" className="corner"></div>
                   <div id="corner-bl" className="corner"></div>
                 </div>
