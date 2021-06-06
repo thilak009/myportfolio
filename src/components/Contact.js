@@ -30,7 +30,7 @@ function Contact(){
         <div className="social-links" >
         
             <ul>
-            <li><a id="twitter-icon" href="https://twitter.com/thilak_reddy_ch?s=08" target="_blank" rel='noreferrer'>
+            <li><a id="twitter-icon" href="https://twitter.com/thilak_ch" target="_blank" rel='noreferrer'>
                 <FaTwitter/>
             </a></li>
             <li><a id="github-icon" href="https://github.com/thilak009" target="_blank" rel='noreferrer'>
