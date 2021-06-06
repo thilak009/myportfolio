@@ -1,7 +1,8 @@
 import React from 'react';
-import data from '../data'
+import data from '../data';
 import {FaGitAlt} from 'react-icons/fa';
 import {AiFillGithub} from 'react-icons/ai';
+import {BiLinkExternal} from 'react-icons/bi'
 
 function Projects(){
 
@@ -21,7 +22,7 @@ function Projects(){
                         <h6 className="post-title">{title}</h6>
                         <p className="post-intro">{description}</p>
                         <div style={{display:"flex",gap:"5px"}}>
-                          <a href={liveLink} target="_blank" rel='noreferrer'>Check out</a>
+                          <a href={liveLink} target="_blank" rel='noreferrer'><BiLinkExternal/></a>
                           {
                             githubLink && <a href={githubLink} target="_blank" rel='noreferrer'><AiFillGithub/></a>
                           }

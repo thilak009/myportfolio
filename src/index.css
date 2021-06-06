@@ -17,6 +17,7 @@
 	--previewShadow:#f0ead6;
 
 	--buttonColor:black;
+	--hoverColor: #393e46;
 }
 /*green  */
 .green{
@@ -35,7 +36,7 @@
 
 
 	--buttonColor:#669966;
-
+	--hoverColor: #a7c4bc;
 }
 /*blue  */
 .blue{
@@ -54,7 +55,7 @@
 
 
 	--buttonColor:#17a2b8;
-
+	--hoverColor: #115173;
 
 }
 /*purple  */
@@ -74,8 +75,7 @@
 
 
 	--buttonColor:#8534a3;
-
-
+	--hoverColor: #511281;
 }
 
 html, body{
@@ -381,6 +381,9 @@ p{
 	color: var(--previewShadow);
 	padding: 0.2em 0.5em;
 	border-radius: 0.2em;
+}
+.post-preview a:hover{
+	background-color: var(--hoverColor);
 }
 
 .post-title{

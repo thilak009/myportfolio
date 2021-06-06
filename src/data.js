@@ -3,7 +3,9 @@ import stripeMenu from './images/stripe-menu.png';
 import githubUsers from './images/github-users.png';
 import crypto from './images/crypto.png';
 import discord from './images/discord-clone.png';
-import earth from './images/earth.png'
+// import earth from './images/earth.png'
+import resort from './images/beach-resort.png'
+
 
 const data=[
     {
@@ -14,11 +16,11 @@ const data=[
         githubLink: "https://github.com/thilak009/github-users-search"
     },
     {
-        image: earth,
-        title: "3D Earth",
-        description: "A 3D Earth model made in Threejs with custom shaders",
-        liveLink: "https://threejs-earth.netlify.app/",
-        githubLink: "https://github.com/thilak009/threejs-earth"
+        image: resort,
+        title: "Resort Website",
+        description: "A resort website with contentful CMS to update data easily without knowledge of code", 
+        liveLink: "https://beach-resort-cms.netlify.app/",
+        githubLink: "https://github.com/thilak009/react-beach-resort"
     },
     {
         image: discord,
