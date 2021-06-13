@@ -4,6 +4,7 @@ import {FaGitAlt} from 'react-icons/fa';
 import {AiFillGithub} from 'react-icons/ai';
 import {BiLinkExternal} from 'react-icons/bi'
 
+
 function Projects(){
 
     return(
