@@ -5,9 +5,16 @@ import crypto from './images/crypto.png';
 import discord from './images/discord-clone.png';
 // import earth from './images/earth.png'
 import resort from './images/beach-resort.png'
-
+import tomodachi from './images/tomodachides.png'
 
 const data=[
+    {
+        image: tomodachi,
+        title: "Social Media App",
+        description: "A social networking app where one can post,comment and interact with people by following and chatting",
+        liveLink: "https://tomodachides.netlify.app/",
+        githubLink: "https://github.com/thilak009/social-media-app-frontend"
+    },
     {
         image: githubUsers,
         title: "Github Users Search",
