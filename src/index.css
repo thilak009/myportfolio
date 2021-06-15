@@ -348,7 +348,11 @@ p{
 	background-color: var(--previewShadow);
 	font-size: 18px;
 }
-
+.skills-title{
+	color: var(--secondaryText);
+	font-size: 19px;
+	margin-bottom: 7px;
+}
 .post-wrapper{
 	display: grid;
 	grid-template-columns: repeat(auto-fit, 320px);

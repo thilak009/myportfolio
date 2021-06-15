@@ -20,14 +20,14 @@ function AboutMe(){
             <h4>TOP EXPERTISE</h4>
             <div id="skills">
               <ul>
-                <li style={{color:"#000",fontSize:"19px"}}>Frontend</li>
+                <li className="skills-title">Frontend</li>
                 <li>Html</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
                 <li>React</li>
               </ul>
               <ul>
-              <li style={{color:"#000",fontSize:"19px"}}>Backend</li>
+              <li className="skills-title">Backend</li>
                 <li>NodeJs</li>
                 <li>Express</li>
                 <li>MongoDB</li>
